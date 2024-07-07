@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convergence Inc - Model Results</title>
+    <style>
+        body {
+            background-color: #001f3f;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-top: 0.5em;
+        }
+        .results {
+            margin-top: 2em;
+            font-size: 1.2em;
+        }
+        .download-button {
+            padding: 1em 2em;
+            background-color: #FF851B;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 1em;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .download-button:hover {
+            background-color: #FF4136;
+        }
+    </style>
+</head>
+<body>
+    <h1>Model Training Results</h1>
+    <div class="results">
+        <p>Accuracy: {{ accuracy * 100 | round(2) }}%</p>
+        <p>Precision: {{ precision * 100 | round(2) }}%</p>
+        <p>Recall: {{ recall * 100 | round(2) }}%</p>
+        <p>F1-Score: {{ f1 * 100 | round(2) }}%</p>
+        <p>ROC-AUC: {{ roc_auc * 100 | round(2) }}%</p>
+    </div>
+    <a href="{{ download_link }}" class="download-button">Download Results</a>
+</body>
+</html>
