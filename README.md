@@ -1,8 +1,8 @@
-# Fund Switches Model - ML Web Application
+# ML Web Application
 
 ## Project Overview
 
-This project, developed at Invergence Analytics, aims to predict managers who are likely to switch to other funds. The dataset, created by our data experts and SMEs, contains 120 features and 460,000 records. Due to the real-world nature of the data, it is highly imbalanced, with fewer instances of managers switching funds. 
+This project, is developed as a prototype at Invergence Analytics, aims to predict managers who are likely to switch to other funds. The dataset, created by our data experts and SMEs, contains 120 features and 460,000 records. Due to the real-world nature of the data, it is highly imbalanced, with fewer instances of managers switching funds. 
 
 The project uses an ensemble model combining three base classifiers: RandomForestClassifier, XGBClassifier, and LightGBMClassifier, integrated using a VotingClassifier. The primary metric for this classification problem is recall, crucial for our use case.
 
@@ -35,6 +35,7 @@ A demo ML web application was developed using Flask, HTML, and CSS to showcase t
 
 ![d3](https://github.com/Aftabbs/Fund_Switches_Model_ML_Web-Application/assets/112916888/57ae4dbc-bcf9-4b67-a27a-7513e608f65f)
 
+**NOTE** - The Data and predictions used are just prototypes and  dummy
 
 ### Further Improvements
 - Integrating additional models into the UI
