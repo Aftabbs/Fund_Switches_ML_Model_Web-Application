@@ -8,7 +8,7 @@ The project uses an ensemble model combining three base classifiers: RandomFores
 
 ## Problem Statement
 
-Predicting fund switches is a challenging task due to:
+Predicting fund switches is a challenging task due to:   
 - The highly imbalanced dataset
 - The complex nature of the financial data
 - there are very few switches observed in industry
