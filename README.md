@@ -1,6 +1,6 @@
 # ML Web Application
 
-## Project Overview
+## Project Overview 
 
 This project, is developed as a prototype proposal for Invergence Analytics, aims to predict managers who are likely to switch to other funds. The dataset, created by our data experts and SMEs, contains 120 features and 460,000 records. Due to the real-world nature of the data, it is highly imbalanced, with fewer instances of managers switching funds. 
 
