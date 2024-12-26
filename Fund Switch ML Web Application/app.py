@@ -3,7 +3,7 @@ import subprocess
 import sys
 from flask import Flask, render_template, request, redirect, url_for, send_file, flash
 import pandas as pd 
-import numpy as np
+import numpy as np 
 import traceback 
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
