@@ -4,7 +4,7 @@ import sys
 from flask import Flask, render_template, request, redirect, url_for, send_file, flash
 import pandas as pd
 import numpy as np
-import traceback
+import traceback 
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split 
