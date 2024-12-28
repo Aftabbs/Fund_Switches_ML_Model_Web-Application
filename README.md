@@ -7,7 +7,7 @@ This project, is developed as a prototype proposal for Invergence Analytics, aim
 The project uses an ensemble model combining three base classifiers: RandomForestClassifier, XGBClassifier, and LightGBMClassifier, integrated using a VotingClassifier. The primary metric for this classification problem is recall, crucial for our use case.
       
 ## Problem Statement 
-
+ 
 Predicting fund switches is a challenging task due to:   
 - The highly imbalanced dataset
 - The complex nature of the financial data
