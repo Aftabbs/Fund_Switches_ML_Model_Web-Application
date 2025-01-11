@@ -2,7 +2,7 @@
  
 ## Project Overview  
  
-This project, is developed as a prototype proposal for Invergence Analytics, aims to predict managers who are likely to switch to other funds. The dataset, created by our data experts and SMEs, contains 120 features and 460,000 records. Due to the real-world nature of the data, it is highly imbalanced, with fewer instances of managers switching funds.      
+This project, is developed as a prototype proposal for Invergence Analytics, aims to predict managers who are likely to switch to other funds. The dataset, created by our data experts and SMEs, contains 120 features and 460,000 records. Due to the real-world nature of the data, it is highly imbalanced, with fewer instances of managers switching funds.       
       
 The project uses an ensemble model combining three base classifiers: RandomForestClassifier, XGBClassifier, and LightGBMClassifier, integrated using a VotingClassifier. The primary metric for this classification problem is recall, crucial for our use case.
       
