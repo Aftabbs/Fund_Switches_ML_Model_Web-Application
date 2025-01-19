@@ -5,7 +5,7 @@ import sys
 try:
     import openpyxl
 except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl"])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl"]) 
     import openpyxl
 
 from sklearn.linear_model import LogisticRegression
