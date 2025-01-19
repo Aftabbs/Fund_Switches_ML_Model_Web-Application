@@ -2,7 +2,7 @@ import os
 import subprocess
 import sys
  
-try:
+try: 
     import openpyxl
 except ImportError:
     subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl"]) 
